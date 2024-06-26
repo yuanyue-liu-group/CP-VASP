@@ -30,6 +30,8 @@
     Yuanyue Liu</p>
 
 # How to Cite
-<p>Please cite the following publications when using CP-VASP in your research:
-* Zhao, X.; Liu, Y. Origin of Selective Production of Hydrogen Peroxide by Electrochemical Oxygen Reduction. Journal of the American Chemical Society 2021, 143 (25), 9423-9428.
-* Yu, S.; Levell, Z.; Jiang, Z.; Zhao, X.; Liu, Y. What Is the Rate-Limiting Step of Oxygen Reduction Reaction on Fe–N–C Catalysts? Journal of the American Chemical Society 2023, 145 (46), 25352-25356.</p>
+<p>Please cite the following publications when using CP-VASP in your research: <br>
+<ul>
+    <li>Zhao, X.; Liu, Y. Origin of Selective Production of Hydrogen Peroxide by Electrochemical Oxygen Reduction. Journal of the American Chemical Society 2021, 143 (25), 9423-9428.</li>
+    <li>Yu, S.; Levell, Z.; Jiang, Z.; Zhao, X.; Liu, Y. What Is the Rate-Limiting Step of Oxygen Reduction Reaction on Fe–N–C Catalysts? Journal of the American Chemical Society 2023, 145 (46), 25352-25356.</li>
+</ul></p>
