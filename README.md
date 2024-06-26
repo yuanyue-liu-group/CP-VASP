@@ -1,15 +1,15 @@
 # CP-VASP
-Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. Using CP-VASP, the electron number, energy, and forces can be determined for any structure under a given electrode potential. Thus, CP-VASP enables structural relaxation and molecular dynamics (MD) simulation under a fixed electrode potential.
+<p>Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. Using CP-VASP, the electron number, energy, and forces can be determined for any structure under a given electrode potential. Thus, CP-VASP enables structural relaxation and molecular dynamics (MD) simulation under a fixed electrode potential.</p>
 
 # Prerequisites
-CP-VASP is currently compatible with VASP version 6. Please see the VASP manual for download instructions: 
-    https://www.vasp.at/wiki/index.php/Installing_VASP.6.X.X
+<p>CP-VASP is currently compatible with VASP version 6. Please see the VASP manual for download instructions:  
+    https://www.vasp.at/wiki/index.php/Installing_VASP.6.X.X</p>
 
-CP-VASP also requires installing VASPsol. The VASPsol documentation can be found here: 
-    https://github.com/henniggroup/VASPsol/tree/master. 
+<p>CP-VASP also requires installing VASPsol. The VASPsol documentation can be found here:  
+    https://github.com/henniggroup/VASPsol/tree/master.</p>
 
-We note that the developers have released an updated patch file for VASP6 that can be found here: 
-    https://github.com/henniggroup/VASPsol/issues/43.
+<p>We note that the developers have released an updated patch file for VASP6 that can be found here:  
+    https://github.com/henniggroup/VASPsol/issues/43.</p>
 
 # Installation
 Please visit our group's page (https://sites.utexas.edu/yuanyue-liu/codes/cp-vasp/) and fill out the request form. We will subsequently give you access to the patch files.
