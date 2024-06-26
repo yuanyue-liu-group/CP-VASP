@@ -8,7 +8,7 @@
 <p>CP-VASP also requires installing VASPsol. The VASPsol documentation can be found here:  
     https://github.com/henniggroup/VASPsol/tree/master.</p>
 
-<p>We note that the developers have released an updated patch file for VASP6 that can be found here:  
+<p>We note that the developers have released an updated patch file for VASP6 that can be found here:  <br>
     https://github.com/henniggroup/VASPsol/issues/43.</p>
 
 # Installation
@@ -24,9 +24,9 @@
 <p>If you encounter challenges with CP-VASP or have comments, please check our discussion board on this GitHub repository. We are happy to answer any questions.</p>
 
 # Authors
-<p>Xunhua Zhao  
-    Saerom Yu  
-    Zachary Levell  
+<p>Xunhua Zhao<br>
+    Saerom Yu<br>
+    Zachary Levell<br>
     Yuanyue Liu</p>
 
 # How to Cite
