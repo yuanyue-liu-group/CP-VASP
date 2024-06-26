@@ -32,6 +32,6 @@
 # How to Cite
 <p>Please cite the following publications when using CP-VASP in your research: <br>
 <ul>
-    <li>Zhao, X.; Liu, Y. Origin of Selective Production of Hydrogen Peroxide by Electrochemical Oxygen Reduction. _Journal of the American Chemical Society_ **2021**, _143_ (25), 9423-9428.</li>
-    <li>Yu, S.; Levell, Z.; Jiang, Z.; Zhao, X.; Liu, Y. What Is the Rate-Limiting Step of Oxygen Reduction Reaction on Fe–N–C Catalysts? _Journal of the American Chemical Society_ **2023**, _145_ (46), 25352-25356.</li>
+    <li>Zhao, X.; Liu, Y. Origin of Selective Production of Hydrogen Peroxide by Electrochemical Oxygen Reduction. <em>Journal of the American Chemical Society</em> <strong>2021</strong>, <em>143</em> (25), 9423-9428.</li>
+    <li>Yu, S.; Levell, Z.; Jiang, Z.; Zhao, X.; Liu, Y. What Is the Rate-Limiting Step of Oxygen Reduction Reaction on Fe–N–C Catalysts? _Journal of the American Chemical Society_ <strong>2023</strong>, <em>145</em> (46), 25352-25356.</li>
 </ul></p>
