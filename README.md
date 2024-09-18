@@ -32,6 +32,7 @@
 <p>Xunhua Zhao<br>
     Saerom Yu<br>
     Zachary Levell<br>
+    Ruoyu Wang<br>
     Yuanyue Liu</p>
 
 # How to Cite
