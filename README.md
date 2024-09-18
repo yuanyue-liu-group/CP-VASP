@@ -14,7 +14,7 @@
     https://github.com/henniggroup/VASPsol/issues/43.</p>
 
 # Installation
-<p>Please fill out the request form [here]([url](https://docs.google.com/forms/d/e/1FAIpQLSdjinABLY26jora50jedL5X6bj5Pc7BTeys5pmclstlWs46Lw/viewform)). We will subsequently give you access to the patch files.</p>
+<p>Please fill out the request form [here](https://www.google.com). We will subsequently give you access to the patch files.</p>
 
 <p>If you are using VASP version 6.4 or 6.3, use the vasp6.4_6.3_cpm.patch file. If you are instead using VASP version 6.2 or 6.1, use the vasp6.2_6.1_cpm.patch file. To apply the patch, navigate to the /src directory in your VASP folder and copy the appropriate patch file into it. Then execute the following command (assuming you are using VASP version 6.4):  
     patch -p0 < vasp6.4_6.3_cpm.patch </p>
