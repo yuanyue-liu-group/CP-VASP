@@ -23,11 +23,8 @@
 # Instructions
 <p>See "CP-VASP Manual.pdf" for detailed instructions on using CP-VASP. We have also provided a few examples in "CP-VASP Examples.pdf".</p>
 
-# Troubleshooting
-<p> If you encounter issues using CP-VASP, please check the issues tab on this GitHub repository. If you don't see your issue, please make a post and we will assist you. </p>
-
-# Discussions and Feedback
-<p>If you encounter challenges with CP-VASP or have comments, please check our discussion board on this GitHub repository. We are happy to answer any questions.</p>
+# Troubleshooting & Discussion
+<p> If you encounter issues using CP-VASP or have questions/comments, please check the issues tab on this GitHub repository. If you don't see your issue or question, please make a post and we will assist you. </p>
 
 # Authors
 <p>Xunhua Zhao<br>
