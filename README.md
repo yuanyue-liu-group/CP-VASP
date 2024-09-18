@@ -24,7 +24,7 @@
     patch -p0 < cp-vaspsol++.patch </p>
 
 # Instructions
-<p>See "CP-VASP Manual.pdf" for detailed instructions on using CP-VASP. We have also provided a few examples in "CP-VASP Examples.pdf".</p>
+<p>See "CP-VASP Manual.pdf" under the folder for your desired version of CP-VASP for detailed instructions on using CP-VASP. We have also provided a few examples in "CP-VASP Examples.pdf".</p>
 
 # Troubleshooting & Discussion
 <p> If you encounter issues using CP-VASP or have questions/comments, please check the issues tab on this GitHub repository. If you don't see your issue or question, please make a post and we will assist you. </p>
