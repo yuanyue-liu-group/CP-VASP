@@ -4,12 +4,12 @@
 <p>Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. Using CP-VASP, the electron number, energy, and forces can be determined for any structure under a given electrode potential. Thus, CP-VASP enables structural relaxation and molecular dynamics (MD) simulation under a fixed electrode potential.</p>
 
 # Prerequisites
-<p>CP-VASP is currently compatible with VASP version 6. Please see the VASP manual for download instructions:  
+<p>CP-VASP is currently compatible with VASP version 6.3.2 and 6.4.2. Please see the VASP manual for download instructions:  
     https://www.vasp.at/wiki/index.php/Installing_VASP.6.X.X</p>
 
-<p>CP-VASP also requires installing either VASPsol++ or VASPsol. The instructions for installing VASPsol++ and VASPsol can be found at the following links:<br>
-    VASPsol++: https://github.com/VASPsol/VASPsol.<br>
-    VASPsol: https://github.com/henniggroup/VASPsol/tree/master.</p>
+<p>CP-VASP also requires installing either VASPsol++ or VASPsol. Note that VASPsol++ is only compatible with VASP 6.3.2. The instructions for installing VASPsol++ and VASPsol can be found at the following links:<br>
+    VASPsol++: https://github.com/VASPsol/VASPsol<br>
+    VASPsol: https://github.com/henniggroup/VASPsol/tree/master</p>
 
 <p>We note that the developers of VASPsol have released an updated patch file for VASP6 that can be found here:  <br>
     https://github.com/henniggroup/VASPsol/issues/43.</p>
