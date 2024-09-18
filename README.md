@@ -3,6 +3,8 @@
 # CP-VASP
 <p>Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. Using CP-VASP, the electron number, energy, and forces can be determined for any structure under a given electrode potential. Thus, CP-VASP enables structural relaxation and molecular dynamics (MD) simulation under a fixed electrode potential.</p>
 
+<p> We have recently developed version 1.1 of CP-VASP. This README contains instructions for installing and using version 1.1. If you would like to use a previous version, navigate to the desired version and consult the README in the corresponding folder.</p>
+
 # Prerequisites
 <p>CP-VASP is currently compatible with VASP version 6.3.2 and 6.4.2. Please see the VASP manual for download instructions:  
     https://www.vasp.at/wiki/index.php/Installing_VASP.6.X.X</p>
@@ -18,8 +20,8 @@
 <p>Please fill out the request form at the link below. We will subsequently give you access to the patch files. <br>
     https://docs.google.com/forms/d/e/1FAIpQLSdjinABLY26jora50jedL5X6bj5Pc7BTeys5pmclstlWs46Lw/viewform </p>
 
-<p>If you are using VASP version 6.4 or 6.3, use the vasp6.4_6.3_cpm.patch file. If you are instead using VASP version 6.2 or 6.1, use the vasp6.2_6.1_cpm.patch file. To apply the patch, navigate to the /src directory in your VASP folder and copy the appropriate patch file into it. Then execute the following command (assuming you are using VASP version 6.4):  
-    patch -p0 < vasp6.4_6.3_cpm.patch </p>
+<p>If you are using VASPsol++, use the cp-vaspol++.patch file. If you are instead using VASPsol, use the cp-vaspsol.patch file. To apply the patch, navigate to the /src directory in your VASP folder and copy the appropriate patch file into it. Then execute the following command (assuming you are using VASPsol++):  
+    patch -p0 < cp-vaspsol++.patch </p>
 
 # Instructions
 <p>See "CP-VASP Manual.pdf" for detailed instructions on using CP-VASP. We have also provided a few examples in "CP-VASP Examples.pdf".</p>
