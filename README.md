@@ -7,10 +7,11 @@
 <p>CP-VASP is currently compatible with VASP version 6. Please see the VASP manual for download instructions:  
     https://www.vasp.at/wiki/index.php/Installing_VASP.6.X.X</p>
 
-<p>CP-VASP also requires installing VASPsol. The VASPsol documentation can be found here:  
-    https://github.com/henniggroup/VASPsol/tree/master.</p>
+<p>CP-VASP also requires installing either VASPsol++ or VASPsol. The instructions for installing VASPsol++ and VASPsol can be found at the following links:
+    VASPsol++: https://github.com/VASPsol/VASPsol.
+    VASPsol: https://github.com/henniggroup/VASPsol/tree/master.</p>
 
-<p>We note that the developers have released an updated patch file for VASP6 that can be found here:  <br>
+<p>We note that the developers of VASPsol have released an updated patch file for VASP6 that can be found here:  <br>
     https://github.com/henniggroup/VASPsol/issues/43.</p>
 
 # Installation
