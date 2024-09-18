@@ -1,4 +1,4 @@
-![CP-VASP image](https://github.com/ZLevell/CP-VASP/blob/main/Main Figure.jpeg?raw=true)
+![CP-VASP image](https://github.com/ZLevell/CP-VASP/blob/main/CP-VASP.jpeg?raw=true)
 
 # CP-VASP
 <p>Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. Using CP-VASP, the electron number, energy, and forces can be determined for any structure under a given electrode potential. Thus, CP-VASP enables structural relaxation and molecular dynamics (MD) simulation under a fixed electrode potential.</p>
