@@ -3,10 +3,14 @@
 # CP-VASP
 <p>Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. Using CP-VASP, the electron number, energy, and forces can be determined for any structure under a given electrode potential. Thus, CP-VASP enables structural relaxation and molecular dynamics (MD) simulation under a fixed electrode potential.</p>
 
-<p> We have recently developed version 2 of CP-VASP. This README contains instructions for installing and using version 2. If you would like to use a previous version, navigate to the desired version and consult the README in the corresponding folder.</p>
+<p>As shown in the lefthand figure above, the supercell for CP-VASP is made of an explicit region with atoms of interest and an implicit region that models the solution as a dielectric continuum containing point charges (where the dielectric continuum represents the solvent, and the point charges represent the electrolyte ions). The supercell is connected to an “electrode” with potential U<sub>ext</sub>. CP-VASP tunes the number of electrons in the explicit region to change the average Fermi level to a target value set by Uext. These net electronic charges are balanced by the ionic charges in the implicit region to keep the system charge neutral. </p>
+
+<p>CP-VASP has various algorithms to tune the electron number. Particularly, for MD simulations, it can emulate the “true” grand-canonical ensemble of electrons to produce the correct Fermi level fluctuation (see the righthand figure above). Moreover, it implements “flash solvation” technique which avoids the “flying solvent” problem at the explicit-implicit interface (see section 6 in the manual). This technique also significantly accelerates the MD simulation. </p>
+
+<p>We have recently developed version 2 of CP-VASP. This README contains instructions for installing and using version 2. If you would like to use a previous version, navigate to the desired version and consult the manual in the corresponding folder.</p>
 
 # Prerequisites
-<p>CP-VASP is currently compatible with VASP version 6.3.2 and 6.4.2. Please see the VASP manual for download instructions:  
+<p>CP-VASP version 2 is currently compatible with VASP version 6.3.2 and 6.4.2. Please see the VASP manual for download instructions:  
     https://www.vasp.at/wiki/index.php/Installing_VASP.6.X.X</p>
 
 <p>CP-VASP also requires installing either VASPsol++ or VASPsol (VASPsol++ is currently only compatible with VASP 6.3.2). The instructions for installing VASPsol++ and VASPsol can be found at the following links:<br>
@@ -27,7 +31,7 @@
 <p>See "CP-VASP Manual.pdf" under the folder for your desired version of CP-VASP for detailed instructions on using CP-VASP. We have also provided a few examples in "CP-VASP Examples.pdf".</p>
 
 # Troubleshooting & Discussion
-<p> If you encounter issues using CP-VASP or have questions/comments, please check the issues tab on this GitHub repository. If you don't see your issue or question, please make a post and we will assist you. </p>
+<p>If you encounter issues using CP-VASP or have questions/comments, please check the issues tab on this GitHub repository. If you don't see your issue or question, please make a post and we will assist you. </p>
 
 # How to Cite
 <p>Please cite the following publications when using CP-VASP in your research: <br>
