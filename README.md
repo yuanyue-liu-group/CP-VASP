@@ -33,6 +33,9 @@
 # Troubleshooting & Discussion
 <p>If you encounter issues using CP-VASP or have questions/comments, please check the issues tab on this GitHub repository. If you don't see your issue or question, please make a post and we will assist you. </p>
 
+# Authorship
+<p>CP-VASP was developed by Zachary Levell*, Ruoyu Wang*, Saerom Yu*, Xunhua Zhao, and Yuanyue Liu. (* These authors contributed equally) </p>
+
 # How to Cite
 <p>Please cite the following publications when using CP-VASP in your research: <br>
 <ul>
