@@ -23,7 +23,7 @@
     https://github.com/henniggroup/VASPsol/issues/43.</p>
 
 # Installation
-<p>Please fill out the request form at the link below. We will subsequently give you access to the patch files. <br>
+<p>Due to the VASP copyright, we cannot share the patch directly on Github. However, you can fill out the request form at the link below, and we will subsequently give you access to the patch files. <br>
     https://docs.google.com/forms/d/e/1FAIpQLSdjinABLY26jora50jedL5X6bj5Pc7BTeys5pmclstlWs46Lw/viewform </p>
 
 <p>If you are using VASPsol++, use the cp-vaspol++.patch file. If you are instead using VASPsol, use the cp-vaspsol.patch file. To apply the patch, navigate to the /src directory in your VASP folder and copy the appropriate patch file into it. Then execute the following command (assuming you are using VASPsol++):  
