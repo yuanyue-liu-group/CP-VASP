@@ -1,0 +1,31 @@
+#  General VASP parameters 
+   ISTART = 0 
+   ENCUT = 400 
+   ISPIN = 1 
+   ISMEAR = 1 
+   SIGMA = 0.2 
+   ALGO = Normal 
+   ISYM = 0 
+   LREAL = Auto 
+   LWAVE = .FALSE. 
+   LCHARG = .FALSE. 
+ 
+   NSW = 0 
+   NELM = 120 
+   POTIM = 0.5 
+   IBRION = -1 
+   EDIFF = 1E-6 
+ 
+#  VASPsol++ Solvent Model - This corresponds to water 
+   LSOL = .TRUE.    
+   ISOL = 2    
+   C_MOLAR = 1.0 
+   R_ION = 4.0   
+ 
+#  CP-VASP Parameters 
+   LCEP = .TRUE. 
+   NESCHEME = 1 
+   CAP_MAX = 2.0 
+   TARGETMU = -4.57 
+   FERMICONVERGE = 0.01 
+###########
