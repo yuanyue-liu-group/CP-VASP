@@ -1,7 +1,7 @@
 ![CP-VASP image](https://github.com/yuanyue-liu-group/CP-VASP/blob/main/CP-VASP.jpg?raw=true)
 
 # CP-VASP
-<p>Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. This is essential for accurately simulating the electrochemical interface, where the Fermi level is controlled by external electrode potential. CP-VASP enables fixed-structure calculation, structural relaxation, and molecular dynamics (MD) simulations under a given electrode potential. </p>
+<p>Thank you for taking interest in CP-VASP! CP-VASP is a patch to the Vienna Ab-Initio Simulation Package (VASP) to enable DFT calculations under constant electrode potential. This is essential for accurately simulating the electrochemical interface, where the Fermi level is controlled by external electrode potential. CP-VASP enables fixed-structure calculation, structural relaxation, and molecular dynamics (***MD***) simulations under a given electrode potential. </p>
 
 <p>As shown in the lefthand figure above, the supercell for CP-VASP is made of an explicit region with atoms of interest and an implicit region that models the solution as a dielectric continuum containing point charges (where the dielectric continuum represents the solvent, and the point charges represent the electrolyte ions). The supercell is connected to an “electrode” with potential U<sub>ext</sub>. CP-VASP tunes the number of electrons in the explicit region to change the average Fermi level to a target value set by Uext. These net electronic charges are balanced by the ionic charges in the implicit region to keep the system charge neutral. </p>
 
