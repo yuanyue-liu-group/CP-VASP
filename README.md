@@ -7,6 +7,8 @@
 
 <p>CP-VASP has various algorithms to tune the electron number. Particularly, for MD simulations, it can emulate the “true” grand-canonical ensemble of electrons to produce the correct Fermi level fluctuation (see the righthand figure above). Moreover, it implements “flash solvation” technique which avoids the “flying solvent” problem at the explicit-implicit interface (see section 6 in the manual). This technique also significantly accelerates the MD simulation. </p>
 
+<p>CP-VASP was developed by Zachary Levell*, Ruoyu Wang*, Saerom Yu*, Xunhua Zhao, and Yuanyue Liu. (* These authors contributed equally) </p>
+
 <p>We have recently developed version 2 of CP-VASP. This README contains instructions for installing and using version 2. If you would like to use a previous version, navigate to the desired version and consult the manual in the corresponding folder.</p>
 
 # Prerequisites
@@ -32,9 +34,6 @@
 
 # Troubleshooting & Discussion
 <p>If you encounter issues using CP-VASP or have questions/comments, please check the issues tab on this GitHub repository. If you don't see your issue or question, please make a post and we will assist you. </p>
-
-# Authorship
-<p>CP-VASP was developed by Zachary Levell*, Ruoyu Wang*, Saerom Yu*, Xunhua Zhao, and Yuanyue Liu. (* These authors contributed equally) </p>
 
 # How to Cite
 <p>Please cite the following publications when using CP-VASP in your research: <br>
