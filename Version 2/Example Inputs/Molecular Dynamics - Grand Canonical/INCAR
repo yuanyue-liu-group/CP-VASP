@@ -1,0 +1,36 @@
+#  General VASP parameters 
+   ISTART = 0 
+   ENCUT = 400 
+   ISPIN = 1 
+   ISMEAR = 1 
+   SIGMA = 0.2 
+   ALGO = Fast 
+   ISYM = 0 
+   LREAL = .FALSE. 
+   LWAVE = .FALSE. 
+   LCHARG = .FALSE. 
+   NSW = 200 
+   NELM = 120 
+   POTIM = 1.0 
+   IBRION = 0 
+   EDIFF = 1E-6 
+
+#  MD Parameters 
+   MDALGO = 2 
+   SMASS = 0 
+   TEBEG = 300 ; TEEND = 300 
+ 
+#  VASPsol++ Solvent Model - This corresponds to water 
+  LSOL = .TRUE. 
+  ISOL = 2 
+  C_MOLAR = 1.0 
+  R_ION = 4.0 
+ 
+#  CP-VASP Parameters 
+   LCEP = .TRUE. 
+   NESCHEME = 5 
+   NEADJUST = 1 
+   TARGETMU = -4.57 
+   T_eta = 300 
+   eta_length = 1 
+########### 
