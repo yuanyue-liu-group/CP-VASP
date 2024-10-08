@@ -7,7 +7,7 @@ As shown in the lefthand figure above, the supercell for CP-VASP is made of an e
 
 CP-VASP has various algorithms to tune the electron number. Particularly, for MD simulations, it can emulate the **“true”** grand-canonical ensemble of electrons to produce the correct Fermi level fluctuation (see the righthand figure above). Moreover, it implements **“flash solvation”** technique which avoids the **“flying solvent”** problem at the explicit-implicit interface (see section 6 in the manual). This technique also **significantly accelerates** the MD simulation.
 
-<p>The latest version of CP-VASP was developed by Zachary Levell*, Ruoyu Wang*, Saerom Yu*, Xunhua Zhao, and Yuanyue Liu. (* These authors contributed equally) </p>
+<p>The first version of CP-VASP was developed by Xunhua Zhao and Yuanyue Liu in 2020. The latest version was developed by Zachary Levell*, Ruoyu Wang*, Saerom Yu*, Xunhua Zhao, and Yuanyue Liu. (* These authors contributed equally) </p>
 
 <p>We have recently developed version 2 of CP-VASP. This README contains instructions for installing and using version 2. If you would like to use a previous version, navigate to the desired version and consult the manual in the corresponding folder.</p>
 
