@@ -11,6 +11,12 @@ CP-VASP has various algorithms to tune the electron number. Particularly, for MD
 
 <p>We have recently developed version 2 of CP-VASP. This README contains instructions for installing and using version 2. If you would like to use a previous version, navigate to the desired version and consult the manual in the corresponding folder.</p>
 
+# Key features:
+
+1. Flash solvation method to avoid flying water problem in MD
+2. “True” grand canonical ensemble for electron dynamics
+3. Support both vaspsol and vaspsol++
+
 # Prerequisites
 <p>CP-VASP version 2 is currently compatible with VASP version 6.3.2 and 6.4.2. Please see the VASP manual for download instructions:  
     https://www.vasp.at/wiki/index.php/Installing_VASP.6.X.X</p>
